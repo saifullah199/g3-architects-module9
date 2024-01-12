@@ -5,7 +5,7 @@ font-family: 'Work Sans', sans-serif;
 
 }
 header{
-    background: rgb(238, 169, 84);
+    background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
 }
 nav{
@@ -29,4 +29,38 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #131313;
+}
+.banner{
+    
+}
+.banner-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+   
+    
+    
+}
+.banner-description{
+    
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.btn-primary{
+    color: #FFF;
+border-radius: 8px;
+text-align: center;
+background: #FF900E;
+font-size: 20px;
+cursor: pointer;
+font-weight: 600;
+padding: 20px 25px;
+}
+.banner img {
+    margin-top: 20px;
+    width: 100%;
 }
